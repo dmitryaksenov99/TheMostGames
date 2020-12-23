@@ -1,0 +1,13 @@
+﻿<Window x:Class="TMG2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TMG2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="310.625" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Margin="10,10,10,35" TextWrapping="Wrap" Name="jsonOutput"/>
+        <Button Content="Get JSON" Margin="10,0,10,10" Click="jsonOutput_Click" Height="20" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
